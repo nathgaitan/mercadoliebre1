@@ -1,0 +1,49 @@
+
+
+.header section h4 {
+    font-family:'Roboto', sans-serif;
+}
+.header section nav ul li {
+    font-family:'Roboto', sans-serif; 
+}
+
+
+
+.home main h1{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif
+}
+
+.home main h2{
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif}
+
+
+
+.home main #descuento{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif ;
+
+}
+
+.home div main img{
+    width: 360px;
+}
+
+
+.home{
+    background-color: #EAC926;}
+
+.home main h4{
+       font-family:  'Roboto', sans-serif;
+       font-size: 24px;
+   } 
+
+
+   .footer div article{
+       font-size: 12px;
+       font-family:'Roboto', sans-serif;
+   }
+
+    
+   

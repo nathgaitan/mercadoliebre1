@@ -6,7 +6,12 @@
 .header section nav ul li {
     font-family:'Roboto', sans-serif; 
 }
+.header section div {
+    background-color: greenyellow;
+}
 
+
+.home {background-color:#EAC926;}
 
 
 .home main h1{
@@ -31,8 +36,7 @@
 }
 
 
-.home{
-    background-color: #EAC926;}
+
 
 .home main h4{
        font-family:  'Roboto', sans-serif;
@@ -40,9 +44,27 @@
    } 
 
 
+   
+    .footer div{
+        background-color:  #ebebeb;
+        display: inline-block;
+    }
+
+   .footer div h4{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+    
+   }
    .footer div article{
-       font-size: 12px;
-       font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+   }
+
+   .footer div section{
+       background-color: #03264C;
    }
 
     

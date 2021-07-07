@@ -1,4 +1,14 @@
 
+ header{background-color:#EAC926;}
+
+ header img {display: center;} 
+
+
+ .header  div{
+     text-align: center;
+     display: inline-block;
+
+ }
 
 .header section h4 {
     font-family:'Roboto', sans-serif;
@@ -6,33 +16,32 @@
 .header section nav ul li {
     font-family:'Roboto', sans-serif; 
 }
-.header section div {
-    background-color: greenyellow;
+.home {background-color: #ebebeb;}
+
+
+.home main div img {
+    width: 100%;
 }
 
 
-.home {background-color:#EAC926;}
-
-
 .home main h1{
+    
     font-size: 18px;
     font-family: 'Roboto', sans-serif
 }
 
 .home main h2{
+    
       font-size: 16px;
       font-family: 'Roboto', sans-serif}
 
 
 
 .home main #descuento{
+    
     font-size: 16px;
     font-family: 'Roboto', sans-serif ;
 
-}
-
-.home div main img{
-    width: 360px;
 }
 
 
@@ -45,27 +54,29 @@
 
 
    
-    .footer div{
+    .home footer {
         background-color:  #ebebeb;
         display: inline-block;
     }
 
-   .footer div h4{
+   .home footer div h4{
     font-family:'Roboto', sans-serif;
     font-size: 24px;
     text-align: center;
 
     
    }
-   .footer div article{
+   .home footer div article{
     font-size: 12px;
     font-family:'Roboto', sans-serif;
     text-align: center;
    }
 
-   .footer div section{
-       background-color: #03264C;
-   }
+
+   .home footer div a{ 
+    color:#1259c3;;
+    text-align: center;
+    display: block;}
 
     
    

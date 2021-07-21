@@ -1,84 +1,62 @@
+.home header {
+  background-color: #eac926;
+  width: 90%;
+}
 
- .home header{
-     background-color:#EAC926;
-    
-    
-    
-    }
+.home header div i {
+  background-color: #03264c;
+  color: white;
+  margin-left: 50%;
+  border-radius: 1px;
+  padding: 9px;
+  margin-bottom: 10px;
+}
 
+.home header section i {
+  margin-left: 18px;
+  background-color: #ebebeb;
+  border-radius: 5px;
 
-
- .home header div i{
-     
-     background-color:#03264C;
-     color:white;
-     margin-left: 50%;
-     border-radius: 1px;
-     padding: 9px;
-     margin-bottom: 10px;
-     
-    
-     
-
- }
-
-
-
- .home header section i{
-     margin-left: 18px;
-     background-color: #ebebeb ;
-     border-radius: 5px;
-     
-     padding: 4px;
-     border:black solid 1px
- }
-
- 
- 
- 
+  padding: 4px;
+  border: black solid 1px;
+}
 
 .home header h4 {
-    font-family:'Roboto', sans-serif;
-    
-    
+  font-family: "Roboto", sans-serif;
 }
-.home header h4 i{
-margin: 5px;
 
+.home header h4 i {
+  margin: 5px;
 }
 
 .home header nav ul li {
-    font-family:'Roboto', sans-serif; 
+  font-family: "Roboto", sans-serif;
+  display: none;
 }
 
-.home header ul li i{
-
-margin-left:10px;
-
-
+.home header ul li i {
+  margin-left: 10px;
 }
 
-.home{background-color: #ebebeb;}
+.home {
+  background-color: #ebebeb;
+}
 
 .home main {
-    align-content:center;
-    border:#ebebeb solid 1px;
-    width: 90%;
-    
+  align-content: center;
+  border: #ebebeb solid 1px;
+  width: 90%;
 }
 
 .home main div img {
-    width: 90%;
-    
-
+  width: 90%;
 }
 
-.home main div div{
-    background-color: white ;
-    font-family: 'Roboto', sans-serif;
-    border:#ebebeb solid 1px;
-    width:90%
-    ;
+.home main div div {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  border: #ebebeb solid 1px;
+  width: 90%;
 }
 
 .home main div i{
@@ -87,94 +65,88 @@ margin-left:10px;
     margin: 20px;
     border: green solid 1px;
     border-radius: 50%;
-} 
-
-
-
-.home main h4{
-    font-family:  'Roboto', sans-serif;
-    font-size: 24px;
-    color: #666;
-    text-align: center;
-} 
-
-.home main div div h1{
-    
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    margin: 3px;
-    padding: 3px;
-    padding-left: 15px;
-    padding-bottom: 0px;
-    
+ 
 }
 
-.home main div div h2{
-    
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif ;
-    color: green;
-    margin: 3px;
-    padding: 3px;
-    padding-left: 15px;
-    padding-top: 0px;
-     
-
+.home main h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #666;
+  text-align: center;
 }
 
-.home main div div h3{
-    
-      font-size: 16px;
-      font-family: 'Roboto',sans-serif;
-      color: #666;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 15px;
-      margin: 3px;
-      
-      
-      ;
-    }
+.home main div div h1 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 3px;
+  padding: 3px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+}
 
+.home main div div h2 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: green;
+  margin: 3px;
+  padding: 3px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
 
-
-
+.home main div div h3 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  margin: 3px;
+  display:none;
+}
 
 .home footer {
-        background-color:white;
-        display: inline-block;
-    }
+  background-color: white;
+  display: inline-block;
+}
 
-.home footer div h4{
-    font-family:'Roboto', sans-serif;
-    font-size: 24px;
-    text-align: center;
+.home footer div h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  
+}
+.home footer div article {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
 
-    
-   }
-.home footer div article{
-    font-size: 12px;
-    font-family:'Roboto', sans-serif;
-    text-align: center;
-   }
+.home footer div a {
+  color: #1259c3;
+  text-align: center;
+  display: block;
+}
 
-
-.home footer div a{ 
-    color:#1259c3;;
-    text-align: center;
-    display: block;}
-
-    
-    
-
-
-
+.home header img.banner {
+  display: none;
+  width: 100%;
+}
 
 
+@media (min-width: 769px) {
+  .home header div i {
+    display: none;
+  }
+  .home header img.banner {
+   width: 100%;
+   display: block;
+}
+.home header nav ul li {
+    display:block;
+}  
+.home main div div h3{
+display: block;
 
-
-
-
-
-
-
+}
+ }

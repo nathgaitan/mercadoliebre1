@@ -1,0 +1,49 @@
+ footer {
+    background-color: white;
+    display: inline-block;
+  }
+  
+   footer div h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-align: center;
+  }
+   footer div article {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
+   footer div a {
+    color: #1259c3;
+    text-align: center;
+    display: block;
+  }
+  
+   header img.banner {
+    display: none;
+    width: 100%;
+  }
+  
+  
+  /*-----------------------------*/
+  
+  @media(min-width:425){
+
+
+
+
+  }
+
+
+  
+  
+  @media (min-width: 769px) {
+   
+  
+     footer div h4 {
+      flex-direction: column;
+    }
+    
+  }
+  

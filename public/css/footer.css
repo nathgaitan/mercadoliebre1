@@ -1,6 +1,9 @@
  footer {
     background-color: white;
     display: inline-block;
+    
+    width: 90%;
+    
   }
   
    footer div h4 {
@@ -12,12 +15,18 @@
     font-size: 12px;
     font-family: "Roboto", sans-serif;
     text-align: center;
+    
   }
   
    footer div a {
     color: #1259c3;
     text-align: center;
     display: block;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  footer div p{
+    text-align: center;
   }
   
    header img.banner {
@@ -31,9 +40,13 @@
   @media(min-width:425){
 
 
-
-
+    footer div h4 {
+      flex-direction: column;
+    }
+    
   }
+
+  
 
 
   

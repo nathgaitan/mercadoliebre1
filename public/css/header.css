@@ -1,77 +1,184 @@
-.home header {
-    background-color: #eac926;
-    width: 90%;
-    
+header {
+  background-color: #eac926;
+  width: 90%;
+}
+
+header .superior .buscador {
+  padding-left: 20px;
+}
+
+header .superior {
+  width: 100%;
+  display: flex;
+  height: 80px;
+}
+
+header .superior .buscador {
+  width: 50%;
+}
+
+header .superior img {
+  margin-left: 5%;
+  width: 45%;
+}
+
+header .superior .buscador form input {
+  border: white;
+  padding: 6px;
+  margin-top: 25px;
+
+  width: 50%;
+}
+header .superior .buscador i {
+  background-color: white;
+  color: gray;
+  padding: 5px;
+  margin-top: 15px;
+  padding-bottom: 7px;
+}
+/*menu hamburguesa*/
+header .burger i {
+  background-color: rgb(15, 89, 250);
+  margin-left: 47%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: black solid 1px;
+  border-radius: 15%;
+}
+
+header h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+header h4 i {
+  margin: 5px;
+}
+header .listas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
+header .listas .izquierda {
+  width: 50%;
+  text-align: center;
+}
+header .listas .izquierda {
+  width: 50%;
+  text-align: center;
+}
+header .listas nav ul {
+  display: flex;
+}
+header .listas nav ul li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+
+header .listas nav ul li a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  display: none;
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+}
+
+@media (min-width: 426px) {
+  header {
+    display: flex;
+    flex-direction: column;
   }
-  /*menu hamburguesa*/
-  
-  .home header div i {
-    background-color: #03264c;
-    color: white;
-    margin-left: 50%;
-    border-radius: 1px;
-    padding: 9px;
-    margin-bottom: 10px;
+  header img {
+    flex-direction: column;
+    width: 50%;
+    position: relative;
   }
-  
-   header section i {
-    margin-left: 18px;
-    background-color: #ebebeb;
-    border-radius: 5px;
-  
-    padding: 4px;
-    border: black solid 1px;
+  header section {
+    width: 50%;
+    position: relative;
   }
-  
-   header h4 {
-    font-family: "Roboto", sans-serif;
-  }
-  
-   header h4 i {
-    margin: 5px;
-  }
-  
-   header nav ul li {
-     display: flex;
-    font-family: "Roboto", sans-serif;
+
+  header div i {
     display: none;
   }
-  
-   header ul li i {
-    margin-left: 10px;
+  header img.banner {
+    width: 100%;
+    display: block;
+  }
+  header nav ul li {
+    display: block;
   }
 
-
-
-
-
-
-
-  @media(min-width:769px) {
-    header {
-      display: flex;
-      flex-direction: column;
-    }
-     header img {
-      flex-direction: column;
-      width: 50%;
-      position: relative;
-    }
-    header section {
-      width: 50%;
-      position: relative;
-    }
-  
-    header div i {
-      display: none;
-    }
-     header img.banner {
-      width: 100%;
-      display: block;
-    }
-     header nav ul li {
-      display: block;
-    }
-
-
+  header .listas {
+    display: none;
   }
+  header .listas nav ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  header .listas nav ul li a {
+    display: block;
+  }
+
+  header .burger i {
+    background-color: rgb(15, 89, 250);
+    margin-left: 40%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: black solid 1px;
+    border-radius: 15%;
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header img {
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+  }
+  header section {
+    width: 50%;
+    position: relative;
+  }
+
+  header div i {
+    display: none;
+  }
+  header img.banner {
+    width: 100%;
+    display: block;
+  }
+  header nav ul li {
+    display: block;
+  }
+
+  header .listas {
+    display: flex;
+  }
+  header .listas nav ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  header .listas nav ul li a {
+    display: block;
+  }
+
+  header .burger i {
+    background-color: rgb(15, 89, 250);
+    margin-left: 40%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: black solid 1px;
+    border-radius: 15%;
+    display: none;
+  }
+}
+

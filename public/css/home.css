@@ -23,7 +23,7 @@
     
   }
   
-  .home main section article div {
+  .home main section article .producto {
     border: #ebebeb solid 1px;
   }
   
@@ -35,16 +35,17 @@
   
   .home main section article div i {
     color: green;
-    padding: 0px;
+    
     margin: 0px;
     border: 1px solid #39b54a;
     background-color: #fff;
     border-radius: 50%;
+    justify-content: center;
     
-    padding: 5px;
+    padding: 6px;
     width: 30px;
     height: 30px;
-    margin-left: 60%;
+    margin-left: 70%;
   }
   
   /* */
@@ -88,6 +89,7 @@
     padding-bottom: 20px;
     padding-left: 15px;
     margin: 3px;
+    display: none;
   }
   .home main section div div {
     align-items: baseline;
@@ -103,7 +105,9 @@
        box-shadow: 0px 0px 10px rgb(100, 100, 100);
        margin-bottom: 15px;
     }
-
+    .home main section article h3 {
+      display: block;
+    }
  }
 
 
@@ -113,7 +117,9 @@
         width: 20%;
         
      }
- 
+     .home main section article h3 {
+       display: block;
+     }
   
      }
  

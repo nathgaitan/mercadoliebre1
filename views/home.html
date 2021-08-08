@@ -25,7 +25,11 @@
 
             
                <div class="buscador">
-                <form action=""><input type="text" placeholder="Buscar productos, marcas y algo mas..."><i class="fas fa-search"></i> </form>
+                <form><input type="text" class="nav-search-input" aria-label="Ingresá lo que quieras encontrar"
+                    name="as_word" placeholder="Buscar productos, marcas y más…" maxlength="120" autofocus=""
+                    autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" tabindex="2">
+                    <a href="" class="boton"><i class="fas fa-search"></i></a></form>
+            
                </div>
                
                 
@@ -61,10 +65,10 @@
     <nav class="lista derecha">
         <ul>
             <li>
-                <a href="">Crea tu cuenta</a><i class="far fa-id-card"></i>
+                <a href="/register">Crea tu cuenta</a><i class="far fa-id-card"></i>
             </li>
             <li>
-                <a href="">Ingresa</a><i class="fas fa-sign-in-alt"></i>
+                <a href="/login">Ingresa</a><i class="fas fa-sign-in-alt"></i>
             </li>
             <li>
                 <a href="">Mis compras</a><i class="fas fa-shopping-basket"></i>

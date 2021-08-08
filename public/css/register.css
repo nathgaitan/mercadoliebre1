@@ -1,0 +1,94 @@
+
+.registro main {
+    width: 90%;
+    margin: 0;
+    background-color: #ebebeb;
+    text-align: center;
+}
+.registro h1{
+    text-align: center;
+    padding-top:  15px;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family : 'Roboto', sans-serif
+}
+.registro .form div{
+    padding-top: 30px;
+    
+}
+.registro .form div input{
+    width: 90%;
+    height: 25px;
+    border-radius: 5%;
+    border: 1px solid #666;
+}
+
+.registro .form .checking input{
+    width: auto;
+    position: relative;
+  top: 8px;
+}
+.registro .form .checking{
+    text-align: left;
+    margin-left: 5px;
+}
+.registro .botones{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 30px 15px 30px 15px;
+padding-bottom: 30px;
+}
+.registro .reset,.registro .enviar{
+    width: 75%;
+    height: 35px;
+   background-color: blue;
+   color: #fff;
+text-align: center;
+}
+.registro .form p{
+    font-size: 18px;
+  font-weight: bold;
+    text-align: left;
+    margin-left: 15px;
+    font-family : 'Roboto', sans-serif
+}
+.registro .foto input#avatar{
+    border: none;
+}
+/*mobile*/
+
+@media (min-width:361px) {
+.registro .formulario{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+}
+.registro .checking{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    padding: 30px 20px;
+   font-size: 18px;
+   font-family : 'Roboto', sans-serif
+}
+.registro .datos{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    padding: 0px 20px;
+}
+.registro .foto{
+    position: relative;
+    bottom: 50px;
+    left: 15px;
+}
+.registro .form p{
+  font-size: 20px;
+font-weight: bold;
+font-family : 'Roboto', sans-serif
+}
+}
+/*tablet*/
+@media (min-width:769px){
+.registro h1{
+        font-size: 35px;
+}
+    
+}
